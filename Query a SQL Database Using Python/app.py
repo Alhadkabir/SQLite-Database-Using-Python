@@ -5,8 +5,8 @@ import psycopg2 as psy
 conn = psy.connect(
     database="python sql",
     host="localhost",
-    user="alhad",
-    password="alhad",
+    user="user",//this is the user name of your db
+    password="user",//this is the password of your db
     port="5432")
 
 sql = "SELECT * FROM PLAYERS"
